@@ -1,0 +1,59 @@
+<html>
+     <head>
+        <title>MARQUEE TAG</title>
+     </head>
+     <body>
+        <center>
+            <h1>Marquee Tag..!</h1>
+        </center>
+        <hr>
+
+        <marquee>THIS IS A MAQUEE TAG..!</marquee>
+        <marquee><a href="#">THIS IS A MAQUEE TAG..!</a></marquee>
+        <marquee bgcolor="teel">THIS IS A MAQUEE TAG..!</marquee>
+
+        <br><hr><br>
+
+        <marquee behavior="alternate" bgcolor="skyblue">THIS IS AN ALTERNATE MAQUEE TAG..!</marquee>
+        <br><br>
+        <marquee behavior="scroll" bgcolor="skyblue">THIS IS AN SCROLL MAQUEE TAG..!</marquee>
+        <br><br>
+        <marquee behavior="slide" bgcolor="skyblue">THIS IS AN SLIDE MAQUEE TAG..!</marquee>
+        <br><br>
+
+        <hr>
+
+        <h2>MARQUEE TAG DIRECTION ATTRIBUTE</h2>
+
+        <marquee direction="right" bgcolor="skyblue">THIS IS AN RIGHT MAQUEE TAG..!</marquee>
+        <br><br>
+        <marquee direction="left" bgcolor="skyblue">THIS IS AN LEFT MAQUEE TAG..!</marquee>
+        <br><br>
+        <marquee direction="up" bgcolor="skyblue">THIS IS AN UP MAQUEE TAG..!</marquee>
+        <br><br>
+        <marquee direction="down" bgcolor="skyblue">THIS IS AN DOWN MAQUEE TAG..!</marquee>
+        <br><br>             
+        
+        <hr> 
+
+        <h2>MARQUEE TAG SCROLLAMOUNT ATTRIBUTE</h2>
+        <marquee bgcolor="skyblue" scrollamount="1">THIS IS A MAQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="20" id="test">THIS IS A MAQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="10">THIS IS A MAQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="5">THIS IS A MAQUEE TAG..!</marquee>
+        <br><hr><br>
+
+        <h2>MARQUEE TAG JAVASCRIPT CODE</h2>
+        <script>
+              document.getElementById('test').onmouseenter = function(){
+                document.getElementById('test').stop();
+              }
+              document.getElementById('test').onmouseenter = function(){
+                document.getElementById('test').start();
+              }
+        </script>
+     </body>
+</html>
